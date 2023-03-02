@@ -11,17 +11,17 @@ public class Circle extends Shape {
     }
 
     public String toString() {
-        String var10000 = this.color;
+        String color = this.color;
         return "I'm a " + color + " " + type + " , my area is " + this.calculateArea() + " and my perimeter is " + this.calculatePerimeter();
     }
 
     public double calculateArea() {
-        double a = Math.PI * this.radius * this.radius;
+        double a = Math.PI * radius * radius;
         return a;
     }
 
     public double calculatePerimeter() {
-        double p = 6.283185307179586 * this.radius;
+        double p = Math.PI * radius * 2;
         return p;
     }
 }
