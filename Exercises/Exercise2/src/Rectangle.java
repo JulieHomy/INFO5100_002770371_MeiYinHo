@@ -13,17 +13,17 @@ public class Rectangle extends Shape {
     }
 
     public String toString() {
-        String var10000 = this.color;
-        return "I am a " + var10000 + " " + type + " , my area is " + this.calculateArea() + " and my perimeter is " + this.calculatePerimeter();
+        String color = this.color;
+        return "I am a " + color + " " + type + " , my area is " + this.calculateArea() + " and my perimeter is " + this.calculatePerimeter();
     }
 
     public double calculateArea() {
-        double s = this.length * this.width;
+        double s = length * width;
         return s;
     }
 
     public double calculatePerimeter() {
-        double p = (this.length + this.width) * 2.0;
+        double p = (length + width) * 2.0;
         return p;
     }
 }
