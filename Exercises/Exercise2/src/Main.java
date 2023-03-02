@@ -43,6 +43,6 @@ public class Main {
         System.out.println(Rectangle.type);
         System.out.println(Square.type);
         System.out.println(Triangle.type);
-
+ 
     }
 }
